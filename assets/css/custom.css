@@ -11,4 +11,173 @@ ffffff -white
 
 *****/
 
+/* =========================
+   BASE & TYPOGRAPHY
+   ========================= */
+body {
+    font-family: 'Inter', sans-serif !important;
+    background: #FFF8EC !important; 
+    color: #432818 !important; /* Soften the text for a luxury feel */
+    line-height: 1.7;
+}
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif !important;
+    color: #6F1D1B !important;
+    font-weight: 700 !important;
+}
+
+/* =========================
+   HEADER
+   ========================= */
+.header {
+    background: #ffffff !important;
+    box-shadow: 0 2px 15px rgba(67, 40, 24, 0.05) !important;
+}
+
+.header-logo h3 a {
+    color: #6F1D1B !important;
+    letter-spacing: 2px !important;
+}
+
+.header .nav-link {
+    color: #432818 !important;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.header .nav-link:hover {
+    color: #BB9457 !important;
+}
+
+/* =========================
+   HERO SECTION
+   ========================= */
+
+.section-lg.bg-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.bg-white-01 {
+    background: linear-gradient(90deg, rgba(67, 40, 24, 0.7) 0%, rgba(67, 40, 24, 0.2) 100%) !important;
+    padding: 100px 0;
+}
+
+.section-lg h1 {
+    color: #FFE6A7 !important; 
+    font-size: 4rem !important;
+}
+
+.section-lg p {
+    color: #ffffff !important;
+    font-size: 1.25rem !important;
+    max-width: 600px;
+}
+
+/* =========================
+   SERVICE CARDS (Hoverbox)
+   ========================= */
+.hoverbox-1 {
+    background: #ffffff !important;
+    border: 1px solid #FFE6A7 !important; /* Subtle border */
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.hoverbox-1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(111, 29, 27, 0.15) !important;
+}
+
+.hover-content {
+    background: #ffffff !important;
+    padding: 30px !important;
+}
+/* =========================
+   SERVICE CARD TEXT VISIBILITY
+   ========================= */
+
+
+
+
+.hover-content h5 {
+    color: #6F1D1B !important; 
+    font-weight: 700 !important;
+    margin-bottom: 10px !important;
+}
+
+
+.hover-content p {
+    color: #432818 !important; 
+    opacity: 1 !important; 
+    font-size: 0.95rem !important;
+    line-height: 1.5 !important;
+}
+
+
+.hover-content .button-text-3 {
+    color: #99582A !important; /
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.hover-content .button-text-3:hover {
+    color: #BB9457 !important; 
+}
+/* =========================
+   BUTTONS
+   ========================= */
+.button-dark {
+    background: #6F1D1B !important;
+    border: 2px solid #6F1D1B !important;
+    color: #FFE6A7 !important;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.button-dark:hover {
+    background: transparent !important;
+    color: #6F1D1B !important;
+    border-color: #6F1D1B !important;
+}
+
+/* =========================
+   DECORATIVE ELEMENTS
+   ========================= */
+
+h3.fw-normal::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #BB9457;
+    margin: 20px auto 0;
+}
+
+/* =========================
+   TESTIMONIALS
+   ========================= */
+.owl-carousel .border {
+    background: #ffffff !important;
+    padding: 40px !important;
+}
+
+/* =========================
+   FOOTER
+   ========================= */
+footer .section.bg-dark {
+    background: #6F1D1B !important; 
+    border-top: 5px solid #BB9457;
+}
+
+footer h2, footer p, footer li, footer a {
+    color: #FFE6A7 !important;
+}
+
+footer a:hover {
+    color: #ffffff !important;
+    text-decoration: underline;
+}

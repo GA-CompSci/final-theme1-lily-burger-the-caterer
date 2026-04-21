@@ -17,7 +17,7 @@ ffffff -white
 body {
     font-family: 'Inter', sans-serif !important;
     background: #FFF8EC !important; 
-    color: #432818 !important; /* Soften the text for a luxury feel */
+    color: #432818 !important; 
     line-height: 1.7;
 }
 
@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
    ========================= */
 .header {
     background: #ffffff !important;
-    box-shadow: 0 2px 15px rgba(67, 40, 24, 0.05) !important;
+    box-shadow: 0 2px 15px black !important;
 }
 
 .header-logo h3 a {

@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
    ========================= */
 .hoverbox-1 {
     background: #ffffff !important;
-    border: 1px solid #FFE6A7 !important; /* Subtle border */
+    border: 1px solid #FFE6A7 !important; 
     transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 

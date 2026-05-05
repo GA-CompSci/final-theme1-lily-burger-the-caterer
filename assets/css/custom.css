@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     overflow: hidden;
 }
-
+`
 .bg-white-01 {
     background: linear-gradient(90deg, rgba(67, 40, 24, 0.7) 0%, rgba(67, 40, 24, 0.2) 100%) !important;
     padding: 100px 0;
@@ -161,9 +161,15 @@ h3.fw-normal::after {
    TESTIMONIALS
    ========================= */
 .owl-carousel .border {
-    background: #ffffff !important;
+    background: #f6ead6 !important;
     padding: 40px !important;
+    border-color: black  !important;
 }
+
+*.text-dark-05 {
+    color: black  !important;
+}
+
 
 /* =========================
    FOOTER

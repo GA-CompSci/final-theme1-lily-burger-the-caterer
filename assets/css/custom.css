@@ -163,7 +163,7 @@ h3.fw-normal::after {
 .owl-carousel .border {
     background: #f6ead6 !important;
     padding: 40px !important;
-    border-color: black  !important;
+    border-color: #f6ead6 !important;
 }
 
 *.text-dark-05 {
@@ -186,4 +186,96 @@ footer h2, footer p, footer li, footer a {
 footer a:hover {
     color: #ffffff !important;
     text-decoration: underline;
+}
+
+/* =========================
+MENU SECTION BUTTON
+========================= */
+
+.menu-section-content p {
+    max-width: 500px;
+    font-size: 1.05rem;
+    color: #5b4636;
+}
+
+.premium-menu-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+
+    background: linear-gradient(
+        135deg,
+        #6F1D1B 0%,
+        #99582A 100%
+    );
+
+    color: #FFE6A7 !important;
+
+    padding: 16px 34px;
+    border-radius: 999px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+
+    transition: all 0.35s ease;
+
+    box-shadow:
+        0 10px 25px rgba(111, 29, 27, 0.18);
+
+    margin-top: 10px;
+}
+
+.premium-menu-button i {
+    transition: transform 0.3s ease;
+}
+
+.premium-menu-button:hover {
+    transform: translateY(-3px);
+    color: white !important;
+
+    box-shadow:
+        0 18px 35px rgba(111, 29, 27, 0.28);
+}
+
+.premium-menu-button:hover i {
+    transform: translateX(5px);
+}
+
+/* OWL FIX: make all testimonial cards equal height */
+.owl-carousel .owl-stage {
+    display: flex;
+}
+
+.owl-carousel .owl-item {
+    display: flex;
+}
+
+/* card itself */
+.owl-carousel .border.border-radius.p-5 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+    min-height: 320px;
+}
+
+/* FIX spacing issue inside card */
+.owl-carousel .border.border-radius.p-5 p {
+    margin-top: 12px;
+    line-height: 1.6;
+}
+
+/* tighten header */
+.owl-carousel .border.border-radius.p-5 h5 {
+    margin-bottom: 4px;
+}
+
+.owl-carousel .border.border-radius.p-5 span {
+    display: block;
+    margin-bottom: 10px;
+    opacity: 0.7;
 }

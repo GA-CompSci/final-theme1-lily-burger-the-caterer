@@ -279,3 +279,16 @@ MENU SECTION BUTTON
     margin-bottom: 10px;
     opacity: 0.7;
 }
+
+/* dropdown text colors */
+
+.nav-dropdown-link,
+.nav-subdropdown-link {
+    color: black !important;
+    transition: color 0.2s ease;
+}
+
+.nav-dropdown-link:hover,
+.nav-subdropdown-link:hover {
+    color: #ffffff !important;
+}
